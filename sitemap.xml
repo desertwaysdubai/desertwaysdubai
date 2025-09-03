@@ -1,33 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- Homepage -->
   <url>
     <loc>https://www.desertwaysdubai.com/</loc>
+    <lastmod>2025-09-03</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/DSlogo.jpg</image:loc>
+      <image:caption>Desert Ways Dubai Logo</image:caption>
+    </image:image>
   </url>
 
   <!-- About Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/about.html</loc>
+    <lastmod>2025-09-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Packages/Menu Page -->
+  <!-- Packages Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/menu.html</loc>
-    <priority>0.8</priority>
+    <lastmod>2025-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <!-- Package images -->
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D2.jpg</image:loc>
+      <image:caption>Evening Desert Safari</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D6.jpg</image:loc>
+      <image:caption>Evening Safari with ATV</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D10.jpg</image:loc>
+      <image:caption>Premium Desert Safari</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D3.webp</image:loc>
+      <image:caption>Private Car Desert Safari</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D7.jpg</image:loc>
+      <image:caption>Overnight Desert Safari</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D1.webp</image:loc>
+      <image:caption>Morning Desert Safari</image:caption>
+    </image:image>
   </url>
 
   <!-- Gallery Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/gallery.html</loc>
-    <priority>0.7</priority>
+    <lastmod>2025-09-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <!-- Gallery images -->
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D2.jpg</image:loc>
+      <image:caption>Dubai Desert Safari Dunes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D6.jpg</image:loc>
+      <image:caption>Golden Desert Sunset</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D10.jpg</image:loc>
+      <image:caption>Desert Vista in UAE</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D9.jpg</image:loc>
+      <image:caption>Dubai Desert Adventure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D8.jpg</image:loc>
+      <image:caption>UAE Desert View</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.desertwaysdubai.com/image/D1.webp</image:loc>
+      <image:caption>Morning Desert Safari</image:caption>
+    </image:image>
   </url>
 
   <!-- Contact Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/contact.html</loc>
+    <lastmod>2025-09-03</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
