@@ -3,16 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
   <!-- SEO Meta Tags -->
-  <title>Desert Ways Dubai | Best Desert Safari Tours in UAE</title>
-  <meta name="description" content="Experience thrilling Dubai desert safaris with dune bashing, camel rides, BBQ dinners & unforgettable adventures. Book now!" />
-  <meta name="keywords" content="Desert Safari Dubai, Dubai Desert Tours, Desert Ways Dubai, Evening Desert Safari, UAE Safari Packages" />
+  <title>Desert Ways Dubai | Adventure Tours, Quad Biking & Evening Safari</title>
+  <meta name="description" content="Experience Dubai’s top desert adventures! Enjoy dune bashing, camel rides, quad biking, skateboarding, and premium evening desert safari tours. Book now!" />
+  <meta name="keywords" content="Desert Safari Dubai, Dubai TouristTrip , Tourism, Adventure Tours, Evening Desert Safari, Dubai Dune Bashing, Quad Biking Dubai, Camel Ride Dubai, Morning Desert Safari, Private Desert Safari, Premium Desert Safari" />
   <meta name="author" content="Desert Ways Dubai" />
   <link rel="canonical" href="https://www.desertwaysdubai.com/" />
-  
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Favicon (Rounded) -->
+  <link rel="icon" href="image/DSlogo.jpg" type="image/x-icon" />
+  <style>
+    link[rel="icon"] img {
+      border-radius: 50%;
+    }
+  </style>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,13 +31,20 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css" />
 
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Desert Safari Dubai | Adventure Tours, Quad Biking & Evening Safari" />
+  <meta property="og:description" content="Experience Dubai’s top desert adventures! Enjoy dune bashing, camel rides, quad biking, skateboarding, and premium evening desert safari tours. Book now!" />
+  <meta property="og:image" content="https://www.desertwaysdubai.com/image/D2.jpg" />
+  <meta property="og:url" content="https://www.desertwaysdubai.com/" />
+  <meta property="og:type" content="website" />
+
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
     "name": "Desert Ways Dubai",
-    "description": "Experience thrilling Dubai desert safaris with dune bashing, camel rides, BBQ dinners & adventures.",
+    "description": "Experience Dubai’s top desert adventures with dune bashing, camel rides, quad biking, skateboarding, and premium evening desert safari tours.",
     "url": "https://www.desertwaysdubai.com/",
     "telephone": "+97152949852",
     "address": {
@@ -49,30 +61,8 @@
   </script>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-brown" aria-label="Main navigation">
-    <div class="container">
-      <!-- Brand link -->
-      <a class="navbar-brand" href="/">Desert Ways Dubai</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <!-- Home link -->
-          <li class="nav-item"><a class="nav-link" href="/"><i class="bi bi-house-door-fill" aria-hidden="true"></i> Home</a></li>
-          <!-- Other pages -->
-          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/menu.html">Packages</a></li>
-          <li class="nav-item"><a class="nav-link" href="/gallery.html">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Navbar container -->
+  <div id="navbar-container"></div>
 
   <!-- HERO SECTION -->
   <header class="hero-section position-relative">
@@ -96,6 +86,7 @@
         <div class="carousel-item">
           <img src="image/D1.webp" class="d-block w-100" alt="Desert vista in the UAE">
         </div>
+
         <!-- Hero Text -->
         <div class="hero-text text-center text-white position-absolute top-50 start-50 translate-middle w-100" style="z-index: 10;">
           <h1 class="display-4 fw-bold">Welcome to Desert Ways Dubai!</h1>
@@ -105,6 +96,7 @@
           <a href="#packages" class="btn btn-lg btn-warning shadow">View Safari Packages</a>
         </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
@@ -225,3 +217,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+

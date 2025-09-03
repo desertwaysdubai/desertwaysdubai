@@ -960,3 +960,28 @@ footer {
   box-shadow: 0 6px 18px rgba(182, 139, 72, 0.35);
   transform: translateY(-3px);
 }
+
+/* ====================== LOGO STYLING ====================== */
+.navbar-brand img {
+  height: 50px;               /* default logo height */
+  width: auto;                /* keep aspect ratio */
+  object-fit: contain;        /* prevents distortion */
+  margin-right: 10px;         /* spacing between logo and text */
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);     /* subtle hover effect */
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 40px;             /* smaller logo for tablets/mobiles */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 35px;             /* even smaller for very small screens */
+  }
+}
