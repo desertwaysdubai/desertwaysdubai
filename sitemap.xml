@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.desertwaysdubai.com/</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -17,7 +17,7 @@
   <!-- About Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/about.html</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -25,7 +25,7 @@
   <!-- Packages Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/menu.html</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <!-- Package images -->
@@ -58,7 +58,7 @@
   <!-- Gallery Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/gallery.html</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <!-- Gallery images -->
@@ -91,9 +91,17 @@
   <!-- Contact Page -->
   <url>
     <loc>https://www.desertwaysdubai.com/contact.html</loc>
-    <lastmod>2025-09-03</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- AI Discovery File -->
+  <url>
+    <loc>https://www.desertwaysdubai.com/llms.txt</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
